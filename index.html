@@ -9,8 +9,8 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<script src="shared/nav.js" data-site="archi" defer></script>
 
-  
 <header>
   <a href="https://lakou-inivesite.vercel.app/" class="logo-link">
     <span class="logo-text">LAKOU<span>Archi</span></span>
@@ -43,16 +43,20 @@
     </div>
   </article>
 
-  <!-- URBANISME (bientôt) -->
-  <article class="card soon">
+  <!-- URBANISME -->
+  <article class="card">
     <div class="card-image">
+      <img src="" alt="Urbanisme" onerror="this.style.display='none'; this.parentElement.querySelector('.fallback-icon').style.display='block';">
       <svg class="fallback-icon" viewBox="0 0 24 24" fill="none" stroke="#fff8ec" stroke-width="1.8"><path d="M3 21h18M5 21V9l4-2v14M13 21V5l4 2v14M9 21v-4M17 21v-4"/></svg>
-      <span class="badge bientot">Bientôt</span>
+      <span class="badge actif">Actif</span>
     </div>
     <div class="card-body">
       <div class="card-title">Urbanisme</div>
       <p class="card-desc">Organisation de l'espace urbain, planification des villes et des quartiers haïtiens.</p>
-      <span class="btn-disabled">Bientôt disponible</span>
+      <a class="btn-explorer" href="https://urbanisme-one.vercel.app/">
+        Voir davantage
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
     </div>
   </article>
 
