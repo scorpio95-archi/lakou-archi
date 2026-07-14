@@ -78,7 +78,6 @@ header{
   max-width:520px; margin:0 auto; padding:32px 22px 40px;
   display:flex; flex-direction:column; gap:32px;
 }
-
 .card{
   background:var(--papye);
   border:2px solid var(--enk);
@@ -118,6 +117,12 @@ header{
 .card-title{ font-size:1.28rem; color:var(--vèt); margin-bottom:6px; }
 .card.soon .card-title{ color:var(--enk-doux); }
 .card-desc{ font-size:0.89rem; line-height:1.5; color:var(--enk-doux); }
+
+.card-facts{ margin-top:16px; padding-top:14px; border-top:1px dashed var(--kreem-dark); display:flex; flex-direction:column; gap:11px; }
+.card-facts .fact dt{ font-size:0.62rem; letter-spacing:0.1em; text-transform:uppercase; font-weight:700; color:var(--tè-fonse); margin-bottom:3px; }
+.card-facts .fact dd{ font-size:0.85rem; line-height:1.5; color:var(--enk-doux); }
+.card.soon .card-facts{ border-top-color:var(--kreem-dark); }
+.card.soon .card-facts .fact dt{ color:var(--enk-doux); }
 .btn-explorer{
   display:flex; align-items:center; justify-content:center; gap:8px;
   width:100%; margin-top:18px; padding:15px; border:none; border-radius:6px;
